@@ -15,5 +15,8 @@
     "express-async-handler": "^1.2.0",
     "prisma": "^5.2.0",
     "rimraf": "^5.0.1"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
