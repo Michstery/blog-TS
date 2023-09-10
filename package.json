@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "rimraf dist && npx tsc",
+    "build": "rimraf dist && npx tsc && node dist/server.js",
     "prestart": "npm run build",
     "start": "node dist/server.js",
     "predev": "npm run build",
